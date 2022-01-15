@@ -28,6 +28,9 @@ jobs:
       - name: List all Original files
         run: ls
 
+      - name: List directory
+        run: pwd
+
       - name: Install Python
         uses: actions/setup-python@v2
         with:
