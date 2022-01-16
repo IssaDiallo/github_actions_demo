@@ -6,6 +6,9 @@ on:
       environment:
         type: environment
         description: Select the environment
+        options:
+        - dev
+        - qa
       boolean:
         type: boolean
         description: True or False
