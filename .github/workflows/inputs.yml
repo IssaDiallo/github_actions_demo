@@ -1,6 +1,6 @@
 name: CI-Inputs
-env:
-  environment: Production
+# env:
+#   environment: Production
 
 on:
   workflow_dispatch:
@@ -8,9 +8,7 @@ on:
       environment:
         type: environment
         description: Select the environment
-        options:
-        - dev
-        - qa
+        options: ['dev', 'prod']
       boolean:
         type: boolean
         description: True or False
