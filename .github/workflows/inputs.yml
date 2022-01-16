@@ -6,7 +6,7 @@ on:
       environment:
         type: environment
         description: Select the environment
-        # options: ['dev', 'prod']
+        options: ['dev', 'prod']
       boolean:
         type: boolean
         description: True or False
