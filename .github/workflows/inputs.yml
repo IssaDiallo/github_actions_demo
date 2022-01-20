@@ -2,6 +2,9 @@ name: CI-Inputs
 
 on:
   workflow_dispatch:
+    push:
+      branches:
+        - main
     inputs:
       environment:
         # type: environment
